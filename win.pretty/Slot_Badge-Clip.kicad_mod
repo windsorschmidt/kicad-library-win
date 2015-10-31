@@ -1,0 +1,12 @@
+(module Slot_Badge-Clip (layer F.Cu) (tedit 545717DA)
+  (fp_text reference Slot_Badge-Clip (at 0 2.4) (layer Cmts.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MNT** (at 0 -2.3) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_arc (start 4.5 0) (end 4.5 -1.5) (angle 180) (layer Edge.Cuts) (width 0.15))
+  (fp_arc (start -4.5 0) (end -4.5 1.5) (angle 180) (layer Edge.Cuts) (width 0.15))
+  (fp_line (start -4.5 1.5) (end 4.5 1.5) (layer Edge.Cuts) (width 0.15))
+  (fp_line (start -4.5 -1.5) (end 4.5 -1.5) (layer Edge.Cuts) (width 0.15))
+)

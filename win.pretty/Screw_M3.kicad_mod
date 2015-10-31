@@ -1,0 +1,15 @@
+(module Screw_M3 (layer F.Cu) (tedit 54599AE7)
+  (fp_text reference MNT1 (at 0 3.683) (layer Dwgs.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SCREW_M3 (at 0.7 -3.5) (layer Dwgs.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 2.75 -2.75) (end 3.15 -2.75) (layer F.SilkS) (width 0.15))
+  (fp_line (start 2.75 -2.75) (end 1.95 -1.95) (layer F.SilkS) (width 0.15))
+  (fp_text user M3 (at 4.3 -2.75) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 2.75 0) (layer F.SilkS) (width 0.15))
+  (pad "" thru_hole circle (at 0 0) (size 4.8 4.8) (drill 3.2) (layers *.Cu *.Mask F.SilkS))
+)
