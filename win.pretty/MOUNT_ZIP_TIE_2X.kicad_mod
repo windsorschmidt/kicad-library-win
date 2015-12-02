@@ -1,8 +1,8 @@
-(module MOUNT_ZIP_TIE_2X (layer F.Cu) (tedit 540FE743)
-  (fp_text reference MNT6 (at 0 -3.2) (layer F.SilkS) hide
+(module MOUNT_ZIP_TIE_2X (layer F.Cu) (tedit 565E67E3)
+  (fp_text reference MNT** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (fp_text value Mount_Zip_Tie (at 0 0) (layer F.SilkS) hide
+  (fp_text value Mount_Zip_Tie (at 0 -3.2) (layer F.SilkS) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_arc (start 0.875 -2) (end 0.875 -2.5) (angle 90) (layer Edge.Cuts) (width 0.01))

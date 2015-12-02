@@ -1,5 +1,5 @@
-(module Connector_Sullins_Edge_10_Position (layer F.Cu) (tedit 546446CE)
-  (fp_text reference P1 (at 0 -8.25) (layer F.SilkS)
+(module Connector_Sullins_Edge_10_Position (layer F.Cu) (tedit 565E64AA)
+  (fp_text reference P** (at 0 -8.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value ISP-SERIAL-EDGE (at 0 -9.75) (layer Cmts.User) hide

@@ -1,7 +1,7 @@
-(module Connector_SIL-6 (layer F.Cu) (tedit 54520C91)
+(module Connector_SIL-6 (layer F.Cu) (tedit 565E6458)
   (descr "Connecteur 6 pins")
   (tags "CONN DEV")
-  (fp_text reference P2 (at 0 2.25) (layer F.SilkS)
+  (fp_text reference P** (at 0 2.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value ISP-SERIAL (at 0 -2.25) (layer Cmts.User) hide
