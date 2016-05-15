@@ -933,6 +933,58 @@ X CHASSIS_GND GND -850 -350 300 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# D_Dual
+#
+DEF D_Dual D 0 10 N N 1 F N
+F0 "D" -75 -75 50 H V C CNN
+F1 "D_Dual" 0 75 50 H V C CNN
+F2 "" -100 0 50 V V C CNN
+F3 "" -100 0 50 V V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -100 0 100 0 N
+P 2 0 1 0 -70 -40 -70 40 N
+P 2 0 1 0 130 -40 130 40 N
+P 4 0 1 0 -130 -40 -70 0 -130 40 -130 -40 F
+P 4 0 1 0 70 -40 130 0 70 40 70 -40 F
+X A 1 -200 0 70 R 50 50 1 1 I
+X K 2 200 0 70 L 50 50 1 1 P
+X KA 3 0 -50 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Dual_Common_Cathode
+#
+DEF D_Dual_Common_Cathode D 0 10 N N 1 F N
+F0 "D" 0 100 50 H V R CNN
+F1 "D_Dual_Common_Cathode" 0 -100 50 H V C CNN
+F2 "" 50 -50 50 V V C CNN
+F3 "" 50 -50 50 V V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 20 -90 20 -10 N
+P 2 0 1 0 20 10 20 90 N
+P 4 0 1 0 25 -50 -75 -50 -75 50 25 50 N
+P 4 0 1 0 80 -90 20 -50 80 -10 80 -90 F
+P 4 0 1 0 80 10 20 50 80 90 80 10 F
+X A1 1 150 50 70 L 50 50 1 1 I
+X A2 2 150 -50 70 L 50 50 1 1 P
+X K 3 -150 0 70 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # ES3D-E3
 #
 DEF ES3D-E3 D 0 40 N N 1 F N
