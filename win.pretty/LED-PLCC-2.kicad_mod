@@ -1,0 +1,13 @@
+(module LED-PLCC-2 (layer F.Cu) (tedit 5750F971)
+  (descr "LED PLCC-2")
+  (tags "LEDPLCC-2 SMD")
+  (attr smd)
+  (fp_text reference LED** (at 0 -2.2) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LED-PLCC-2 (at 0 0) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 2 smd rect (at 1.7 0 180) (size 1.9 2.6) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -1.7 0 180) (size 1.9 2.6) (layers F.Cu F.Paste F.Mask))
+)
