@@ -1,4 +1,4 @@
-update=Wed 08 Feb 2017 06:29:28 PM PST
+update=Thu 09 Feb 2017 12:01:52 AM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../temp
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=win
+LibName31=/home/win/temp/SV650_K5_Instrument_Connector
