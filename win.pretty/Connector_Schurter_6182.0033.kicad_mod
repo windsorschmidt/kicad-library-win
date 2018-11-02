@@ -1,4 +1,4 @@
-(module Connector_Schurter_6182.0033 (layer F.Cu) (tedit 5BDB8C58)
+(module Connector_Schurter_6182.0033 (layer F.Cu) (tedit 5BDBABF0)
   (fp_text reference J** (at 0 -6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13,9 +13,9 @@
   (fp_text user "PCB Edge" (at 0 7.2) (layer Cmts.User)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 thru_hole circle (at 0 -15.1) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 0 -15.1) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -7 -15.1) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 7 -15.1) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 7 -15.1) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 20 0) (size 4 4) (drill 3.4) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -20 0) (size 4 4) (drill 3.4) (layers *.Cu *.Mask))
   (model /home/win/working/kicad-library-win/packages3d/Connector_Schurter_6182.0033.step
