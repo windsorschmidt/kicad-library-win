@@ -1,4 +1,4 @@
-(module Pushbutton_PTS810_SJx_250_SMTR_LFS (layer F.Cu) (tedit 5B945A27)
+(module Pushbutton_PTS810_SJx_250_SMTR_LFS (layer F.Cu) (tedit 5BE508B0)
   (fp_text reference REF** (at 0 -2.3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -21,4 +21,9 @@
   (pad 1 smd rect (at 2.1 -1.1) (size 1.1 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -2.1 1.1) (size 1.1 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.1 1.1) (size 1.1 0.7) (layers F.Cu F.Paste F.Mask))
+  (model /home/win/working/kicad-library-win/packages3d/SW_SPST_CK_PTS810.step
+    (offset (xyz 0 0 1.4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
