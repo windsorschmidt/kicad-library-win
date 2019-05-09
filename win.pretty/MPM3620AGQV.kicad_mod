@@ -1,4 +1,4 @@
-(module MPM3620AGQV (layer F.Cu) (tedit 5CD09DC0)
+(module MPM3620AGQV (layer F.Cu) (tedit 5CD33879)
   (attr smd)
   (fp_text reference REF** (at 0 -3.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -43,4 +43,9 @@
   (pad 18 smd roundrect (at -1.25 -2.45) (size 0.25 0.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 19 smd roundrect (at -1 1.25 90) (size 1.95 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 20 smd roundrect (at 1 1.25 90) (size 1.95 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+  (model :win:MPM3620AGQV.wrl
+    (at (xyz 0 -0 0))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz -90 0 90))
+  )
 )

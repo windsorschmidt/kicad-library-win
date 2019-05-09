@@ -1,4 +1,4 @@
-(module Connector_TE_1-1705949-1 (layer F.Cu) (tedit 5CD1437B)
+(module Connector_TE_1-1705949-1 (layer F.Cu) (tedit 5CD34030)
   (fp_text reference REF** (at -11.4 -4 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

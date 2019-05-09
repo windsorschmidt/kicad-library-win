@@ -1,4 +1,4 @@
-(module TDSO1150 (layer F.Cu) (tedit 5CD0AA85)
+(module TDSO1150 (layer F.Cu) (tedit 5CD31FBB)
   (fp_text reference REF** (at -2.5 -2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -40,4 +40,9 @@
   (pad 3 thru_hole circle (at -2.54 7.62) (size 1.27 1.27) (drill 0.762) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -3.81 5.38) (size 1.27 1.27) (drill 0.762) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -5.08 7.62) (size 1.27 1.27) (drill 0.762) (layers *.Cu *.Mask))
+  (model :win:LED_Vishay_TDSO1150.wrl
+    (offset (xyz -2.55 -3.8 0))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 0 0 0))
+  )
 )
